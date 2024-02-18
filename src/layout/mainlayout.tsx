@@ -3,8 +3,9 @@ function MainLayout({ children }: {children: React.ReactNode}) {
     
   return (
     <>
-      <Navbar />
-      {children}   
+      <Navbar>
+        {children} 
+      </Navbar>  
     </>
   )
 }
