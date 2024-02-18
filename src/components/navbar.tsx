@@ -17,12 +17,15 @@ function Navbar({ children }: { children: React.ReactNode}) {
               </div>
               <div className="flex-1 px-2 mx-2">Navbar Title</div>
             </div>
-            <div className="flex-none hidden lg:block">
-              <ul className="menu menu-horizontal">
+            <div className="navbar-center hidden lg:flex">
+              <ul className="menu menu-horizontal px-1">
                 {/* Navbar menu content here */}
                 <li><a>Navbar Item 1</a></li>
                 <li><a>Navbar Item 2</a></li>
               </ul>
+            </div>
+            <div className="navbar-end">
+              <a className="btn">Get Started</a>
             </div>
           </div>
           {/* Page content here*/}
